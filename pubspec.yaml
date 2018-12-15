@@ -5,7 +5,7 @@ author: "Emad O. Medher <emad@medher.info>"
 homepage: https://emad.medher.info
 
 environment:
-  sdk: flutter
+  sdk: "^2.0.0-dev.68.0 <3.0.0"
 
 dependencies:
   flutter:
