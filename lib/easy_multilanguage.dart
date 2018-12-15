@@ -3,10 +3,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 List<String> languages = [];
 
-Future<String> t(String term) async{
-  if((await SharedPreferences.getInstance()).getString('easylang.currentLanguage') == null){
-    throw("easy_multilanguage: Default language not selected. Please use setCurrentLanguage");}
-  String currentLanguage = await getCurrentLanguage();
+String currentLanguage;
+
+String t(String term){
   if(t_table.containsKey(term) == false){
     throw("easy_multilanguage: Term was not found in the dictionary (" + term + ")");}
   if(t_table[term].containsKey(currentLanguage) == false){
@@ -24,8 +23,12 @@ Future<bool> setCurrentLanguage(String newLanguage) async {
 
 Future<bool> setDefaultLanguage(String newLanguage) async {
   if((await SharedPreferences.getInstance()).getString('easylang.currentLanguage') == null){
-    (await SharedPreferences.getInstance()).setString('easylang.currentLanguage', newLanguage); return true;}
-  return false;
+    (await SharedPreferences.getInstance()).setString('easylang.currentLanguage', newLanguage);
+    currentLanguage = newLanguage;
+    return true;}
+  else{
+    currentLanguage = (await SharedPreferences.getInstance()).getString('easylang.currentLanguage'); return false;
+  }
 }
 
 Future<bool> setLanguages(String newLanguage) async {
