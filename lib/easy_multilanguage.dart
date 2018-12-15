@@ -22,6 +22,12 @@ Future<bool> setCurrentLanguage(String newLanguage) async {
   return (await SharedPreferences.getInstance()).setString('easylang.currentLanguage', newLanguage);
 }
 
+Future<bool> setDefaultLanguage(String newLanguage) async {
+  if((await SharedPreferences.getInstance()).getString('easylang.currentLanguage') == null){
+    (await SharedPreferences.getInstance()).setString('easylang.currentLanguage', newLanguage); return true;}
+  return false;
+}
+
 Future<bool> setLanguages(String newLanguage) async {
   return (await SharedPreferences.getInstance()).setString('easylang.currentLanguage', newLanguage);
 }
