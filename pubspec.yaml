@@ -1,0 +1,20 @@
+name: easy_multilanguage
+description: The fastest way to add multilanguage support to your flutter application
+version: 0.0.1
+author: "Emad O. Medher <emad@medher.info>"
+homepage: https://emad.medher.info
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^0.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

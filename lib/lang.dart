@@ -1,0 +1,2 @@
+library easy_multilanguage;
+
