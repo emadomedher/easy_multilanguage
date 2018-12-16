@@ -1,5 +1,3 @@
-library easy_multilanguage;
-
 class iso6392B {
   iso6392B._();
   static const String aar = "Afar";
