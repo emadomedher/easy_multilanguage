@@ -6,8 +6,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13e4d95e-4c53-4baa-a503-15227f1bca39" name="Default" comment="fix t function">
+    <list default="true" id="13e4d95e-4c53-4baa-a503-15227f1bca39" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lang.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lang.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="easy_multilanguage.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/easy_multilanguage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="15">
+              <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -35,8 +36,8 @@
       <file leaf-file-name="lang.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/lang.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="126">
+              <caret line="511" column="37" lean-forward="true" selection-start-line="511" selection-start-column="37" selection-end-line="511" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -105,13 +106,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/lang.dart" />
         <option value="$PROJECT_DIR$/example/main.dart" />
         <option value="$PROJECT_DIR$/test/easy_multilanguage_test.dart" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LICENSE" />
-        <option value="$PROJECT_DIR$/lib/easy_multilanguage.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/lang.dart" />
+        <option value="$PROJECT_DIR$/lib/easy_multilanguage.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
       </list>
     </option>
@@ -378,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544890610818</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix t function">
+      <created>1544890722648</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544890722648</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -395,11 +403,11 @@
       <window_info anchor="bottom" id="Dart Analysis" weight="0.3286908" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49928468" visible="true" weight="0.32729805" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49928468" visible="true" weight="0.32729805" />
       <window_info anchor="right" id="Flutter Outline" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -518,24 +526,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lang.dart">
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/easy_multilanguage.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="15">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+    <entry file="file://$PROJECT_DIR$/lib/lang.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="126">
+          <caret line="511" column="37" lean-forward="true" selection-start-line="511" selection-start-column="37" selection-end-line="511" selection-end-column="37" />
         </state>
       </provider>
     </entry>
